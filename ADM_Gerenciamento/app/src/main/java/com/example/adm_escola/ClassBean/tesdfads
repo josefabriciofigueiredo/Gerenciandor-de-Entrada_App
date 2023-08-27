@@ -1,0 +1,62 @@
+// canvas.drawCircle(100, 100, 50, paint);
+
+        // canvas.drawRect(100, 100, 200, 200, paint);
+
+        // paint.setTextSize(50);
+        // canvas.drawText("Hello", 200, 200, paint);
+
+        // paint.setStrokeWidth(10);
+        // canvas.drawLine(0, 500, 40, 200, paint);
+
+        /*
+        paint.setAntiAlias(true);
+
+        paint.setTextSize(30);
+        paint.setColor(Color.BLACK);
+        int cont = 100;
+        for (int x=0;x<=10;x++) {
+            canvas.drawText(String.valueOf(cont), 20, 40+(40*x), paint);
+            cont-=10;
+        }
+
+        int width = canvas.getWidth();
+        paint.setStrokeWidth(1);
+        paint.setColor(Color.BLACK);
+        for (int x=0;x<=10;x++) {
+            canvas.drawLine(100, 40+(40*x)-15, 560, 40+(40*x)-15, paint);
+        }
+
+        for (int x=0;x<=10;x++) {
+            canvas.drawLine((x*40)+140, 0, (x*40)+140, 450, paint);
+        }
+
+        ArrayList<Integer> valores = new ArrayList<>();
+        valores.add(20);
+        valores.add(30);
+        valores.add(10);
+        valores.add(50);
+        valores.add(45);
+        valores.add(9);
+        valores.add(100);
+        valores.add(100);
+        valores.add(80);
+        valores.add(60);
+        valores.add(70);
+
+        paint.setColor(Color.RED);
+        cont = 0;
+        for (Integer valor : valores) {
+            canvas.drawCircle((cont * 40) + 140, 40 + (40 * (10-(valor/10))) - 15, 5, paint);
+            cont+=1;
+        }
+
+        paint.setStrokeWidth(2);
+        cont = 0;
+        for (Integer valor : valores) {
+            if (cont != 0) {
+                canvas.drawLine(((cont-1) * 40) + 140, 40 + (40 * (10-(valores.get(cont-1)/10))) - 15,
+                        (cont * 40) + 140, 40 + (40 * (10-(valor/10))) - 15, paint);
+            }
+            cont += 1;
+        }
+        */

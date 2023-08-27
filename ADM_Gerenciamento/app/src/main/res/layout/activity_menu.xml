@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/ic_logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_config"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_settings"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_logout"
+        app:layout_constraintEnd_toStartOf="@+id/btn_logout"
+        app:layout_constraintTop_toTopOf="@+id/btn_logout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_Conteudo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nomeConta">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="clip_horizontal|center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linerLayout_gerarIdade"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/layout_btn"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_margin="15px"
+                    android:background="@drawable/layout_circle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:layout_margin="15px"
+                        android:background="@drawable/ic_calendar"
+                        android:backgroundTint="#8F00FF" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15px"
+                    android:fontFamily="@font/acme"
+                    android:text="IDADE"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/linerLayout_gerarEscola"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/layout_btn"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_margin="15px"
+                    android:background="@drawable/layout_circle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:layout_margin="15px"
+                        android:background="@drawable/ic_school"
+                        android:backgroundTint="#8F00FF" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15px"
+                    android:fontFamily="@font/acme"
+                    android:text="ESCOLA"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:gravity="clip_horizontal|center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linerLayout_gerarInscricao"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/layout_btn"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_margin="15px"
+                    android:background="@drawable/layout_circle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:layout_margin="15px"
+                        android:background="@drawable/ic_time"
+                        android:backgroundTint="#8F00FF" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15px"
+                    android:fontFamily="@font/acme"
+                    android:text="INSCRIÇÃO"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:id="@+id/linerLayout_gerarLista"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/layout_btn"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="100px"
+                    android:layout_height="100px"
+                    android:layout_margin="15px"
+                    android:background="@drawable/layout_circle"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="70px"
+                        android:layout_height="70px"
+                        android:layout_margin="15px"
+                        android:background="@drawable/ic_list"
+                        android:backgroundTint="#8F00FF" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15px"
+                    android:fontFamily="@font/acme"
+                    android:text="LISTA"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_perfil"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_margin="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="Olá,"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/image_perfil"
+        app:layout_constraintTop_toBottomOf="@+id/image_perfil" />
+
+    <TextView
+        android:id="@+id/txt_nomeConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/acme"
+        android:text="Nome"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_Carregar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_nomeConta" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
