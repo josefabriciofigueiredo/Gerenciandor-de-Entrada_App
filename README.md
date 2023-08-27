@@ -3,18 +3,17 @@
 
 ## Sobre
 <h4>- App</h4>
-<div style="display: flex; flex-direction: row;">
-    <img src="Visualizacao_Projeto/Tela(1)_Login.jpeg" style="width: 19.7%;">
-    <img src="Visualizacao_Projeto/Tela(2)_Menu.jpeg" style="width: 19.7%; margin-left: 0.3%;">
-    <img src="Visualizacao_Projeto/Tela(3)_GraficoEscola.jpeg" style="width: 19.7%; margin-left: 0.3%;">
-    <img src="Visualizacao_Projeto/Tela(4)_Lista das Inscricoes.jpeg" style="width: 19.7%; margin-left: 0.3%;">
-    <img src="Visualizacao_Projeto/Tela(5)_Inscricao por Hora.jpeg" style="width: 19.7%; margin-left: 0.3%;">
+<div>
+<img src="Visualizacao_Projeto/Tela(1)_Login.jpeg" width="19.7%">
+<img src="Visualizacao_Projeto/Tela(2)_Menu.jpeg" width="19.7%">
+<img src="Visualizacao_Projeto/Tela(3)_GraficoEscola.jpeg" width="19.7%">
+<img src="Visualizacao_Projeto/Tela(4)_Lista das Inscricoes.jpeg" width="19.7%">
 </div>
 
 <h4>- Site</h4>
-<div style="display: flex; flex-direction: row;">
-    <img src="Visualizacao_Projeto/site(1).png" style="width: 49.7%;">
-    <img src="Visualizacao_Projeto/site(2).png" style="width: 49.7%; margin-left: 0.3%;">
+<div>
+<img src="Visualizacao_Projeto/site(1).png" width="49%">
+<img src="Visualizacao_Projeto/site(2).png" width="49%">
 </div>
 
 <br>
