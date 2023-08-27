@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+
+    <link href="asset/css/style.css" rel="stylesheet">
+    <link href="asset/css/alerta.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="asset/img/logo.png">
+
+    <!-- Material Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>INSCREVA-SE</h2>
+
+        <div class="bg-input">
+            <span class="material-symbols-outlined">person</span>
+            <label for="nome">Nome*</label>
+            <input id="nome" type="text">
+        </div>
+
+        <div class="bg-input">
+            <span class="material-symbols-outlined">event</span>
+            <label for="idade">Idade*</label>
+            <input id="idade" type="number">
+        </div>
+
+
+        <div class="bg-input">
+            <span class="material-symbols-outlined">school</span>
+            <label for="escola">Escola</label>
+            <input id="escola" type="text" list="nomesDeEscolas">
+        </div>
+
+        <div class="bg-input">
+            <span class="material-symbols-outlined">call</span>
+            <label for="telefone">Telefone</label>
+            <input id="telefone" type="tel">
+        </div>
+
+        <div class="bg-input">
+            <span class="material-symbols-outlined">mail</span>
+            <label for="email">Email</label>
+            <input id="email" type="email">
+        </div>
+
+        <button id="inscrever" type="button">Inscrever</button>
+        <p id="inscrevendo">Inscrevendo</p>
+    </div>
+
+    <datalist id="nomesDeEscolas">
+        <option value="CENTRO MUNICIPAL DE EDUCACAO INFANTIL - CMEI LESSA">
+        <option value="ESCOLA MUNICIPAL PROFESSORA ISABEL DO CARMO NOGUEIRA">
+        <option value="SENAC PINDAMONHANGABA">
+        <option value="ESCOLA EMILIO RIBAS">
+        <option value="ESCOLA DE EDUCACAO INFANTIL GIOCARE">
+        <option value="JOAO PEDRO CARDOSO DR">
+        <option value="JOAO MARTINS DE ALMEIDA PROFESSOR">
+        <option value="PEDRO SILVA PROFESSOR">
+        <option value="CLARO CESAR DEPUTADO">
+        <option value="MARIO BULCAO GIUDICE PROFESSOR">
+        <option value="ALZIRA FRANCO PROFESSORA">
+        <option value="RYOITI YASSUDA">
+        <option value="EURIPEDES BRAGA PROFESSOR">
+        <option value="ALFREDO PUJOL DOUTOR">
+        <option value="MARIO TAVARES DOUTOR">
+        <option value="ETEC JOAO GOMES DE ARAUJO">
+        <option value="GABRIELLA MONTEIRO DE ATHAYDE MARCONDES PROFESSORA">
+        <option value="JOAO JOSE DE AZEVEDO MONSENHOR">
+        <option value="YOLANDA BUENO DE GODOY PROFESSORA">
+        <option value="IOLANDA VELLUTINI PROFESSORA">
+        <option value="YONNE CESAR GUAYCURU DE OLIVEIRA PROFESSORA">
+        <option value="JOSE PINTO MARCONDES PESTANA PROFESSOR">
+        <option value="WILSON PIRES CESAR PROFESSOR">
+        <option value="ISMENIA MONTEIRO DE OLIVEIRA PROFESSORA">
+        <option value="EUNICE BUENO ROMEIRO PROFESSORA">
+        <option value="ALEXANDRINA GOMES DE ARAUJO RODRIGUES PROFESSORA">
+        <option value="IVONE NOGUEIRA DE AZEVEDO PROFESSORA">
+        <option value="ESCOLA MUNICIPAL DOUTOR ANGELO PAZ DA SILVA">
+        <option value="ESCOLA MUNICIPAL PROFESSOR ORLANDO PIRES">
+        <option value="ESCOLA MUNICIPAL PROFA MARIA APARECIDA ARANTES VASQUES">
+        <option value="ESCOLA MUNICIPAL PROFESSOR MOACYR DE ALMEIDA">
+        <option value="ESCOLA MUNICIPAL PROFESSOR MANOEL CESAR RIBEIRO">
+        <option value="ESCOLA MUNICIPAL PROFESSORA GILDA PIORINI MOLICA">
+        <option value="ESCOLA MUNICIPAL PROFESSOR JAIRO MONTEIRO">
+        <option value="ESCOLA MUNICIPAL PADRE ZEZINHO">
+        <option value="ESCOLA MUNICIPAL DR FRANCISCO DE ASSIS CESAR">
+        <option value="ESCOLA MUNICIPAL ARTHUR DE ANDRADE">
+        <option value="ESCOLA MUNICIPAL PROFA RACHEL DE AGUIAR LOBERTO">
+        <option value="ESCOLA MUNICIPAL PROFESSOR FELIX ADIB MIGUEL">
+        <option value="ESCOLA MUNICIPAL ABDIAS JUNIOR SANTIAGO E SILVA">
+        <option value="ESCOLA MUNICIPAL AYRTON SENNA DA SILVA">
+        <option value="ESCOLA MUNICIPAL VITO ARDITO">
+        <option value="ESCOLA MUNICIPAL PROFA MARIA ZARA MINE RENOLDI DOS SANTOS">
+        <option value="ESCOLA MUN PADRE MARIO ANTONIO BONOTTI REDENTORISTA">
+        <option value="ESCOLA MUNICIPAL JOAO CESARIO">
+        <option value="FUTURA CENTRO EDUCACIONAL">
+        <option value="ESCOLA MUNICIPAL PROFESSORA JULIETA REALE VIEIRA">
+        <option value="SESI 387 CENTRO EDUCACIONAL">
+        <option value="BOM JESUS EXTERNATO COLEGIO ED INFANTIL ENSINO FUND E MEDIO">
+        <option value="ESCOLA DA VIDA">
+        <option value="MAGISTRA COLEGIO">
+        <option value="CONSTRUTOR COLEGIO ED INFANTIL ENSINO FUNDAMENTAL MEDIO">
+        <option value="APAE ELVIRA MOREIRA">
+        <option value="ESCOLA SENAI GERALDO ALCKMIN">
+        <option value="CENTRO ED PROPEDEUTICO EI ENSINO FUNDAMENTAL MEDIO E EJA">
+        <option value="SANTA MONICA COLEGIO">
+        <option value="ESCOLA MUNICIPAL PROFESSORA YVONE APPARECIDA ARANTES CORREA">
+        <option value="CENTRO MUN DE ED INFANTIL JOSE ILDEFONSO MACHADO">
+        <option value="CMEI MARLI LEMES DE MOURA CAMARGO">
+        <option value="ESCOLA MUNICIPAL ANIBAL FERREIRA LIMA">
+        <option value="ARTE VIDA ESCOLA DE EDUCACAO INFANTIL E ENSINO FUNDAMENTAL">
+        <option value="CENTRO DE EDUCACAO FUNDAMENTAL E INFANTIL ART TOLEDO">
+        <option value="ESCOLA MUNICIPAL PROFESSORA RUTH AZEVEDO ROMEIRO">
+        <option value="ESCOLA MUNICIPAL PROFESSOR ALEXANDRE MACHADO SALGADO">
+        <option value="ESCOLA MUNICIPAL PROFA MARIA HELENA RIBEIRO VILELA">
+        <option value="ESCOLA MUNICIPAL PROFESSOR PAULO FREIRE">
+        <option value="ESCOLA MUNICIPAL PROFESSOR ELIAS BARGIS MATHIAS">
+        <option value="CMEI MARIA APARECIDA GOMES SA MARIA">
+        <option value="CENTRO MUNICIPAL DE EDUCACAO INFANTIL CAIC">
+        <option value="CENTRO MUN DE EDUCACAO INFANTIL FREI REINALDO NIEBORG">
+        <option value="CMEI MARIA DAS DORES SANTOS MARCONDES MARIA DOS ANJOS">
+        <option value="ESCOLA MUNICIPAL DR ANDRE FRANCO MONTORO">
+        <option value="TPINDA CURSOS TECNICOS E ENSINO MEDIO">
+        <option value="ESCOLA MUNICIPAL PROFESSOR AUGUSTO CESAR RIBEIRO">
+        <option value="ESCOLA MUNICIPAL PROF LAURO VICENTE DE AZEVEDO">
+        <option value="ESCOLA MUNICIPAL SERAFIM FERREIRA - SR SARA">
+        <option value="ESCOLA MUNICIPAL DULCE PEDROSA ROMEIRO GUIMARAES">
+        <option value="CENTRO MUNICIPAL DE EDUCACAO INFANTIL DURVALINO DOS SANTOS">
+        <option value="PROGRESSAO COLEGIO">
+        <option value="EMILIO RIBAS DE ENSINO FUNDAMENTAL COLEGIO">
+        <option value="EMILIO RIBAS COLEGIO DE ENSINO MEDIO">
+        <option value="COLEGIO APRENDIZ ESCOLA DE ED INFANTIL E ENSINO FUNDAMENTAL">
+        <option value="CRIANCA E COMPANHIA ESCOLA DE ED INFANTIL E ENS FUNDAMENTAL">
+        <option value="BRINCANDO E APRENDENDO ESCOLA DE EDUCACAO INFANTIL">
+        <option value="MESTRE COLEGIO INICIACAO EDUCACIONAL">
+        <option value="CLUBE DO MICKEY ESCOLA DE EDUCACAO INFANTIL">
+        <option value="PEQUENO PRINCIPE ESCOLA DE EDUCACAO E RECREACAO INFANTIL">
+        <option value="GIZ DE CERA ESCOLA DE EDUCACAO INFANTIL">
+        <option value="CORACAO VALENTE ESCOLA DE EDUCACAO INFANTIL">
+        <option value="COLEGIO SAO RAFAEL">
+        <option value="BALAO MAGICO ESCOLA DE EDUCACAO INFANTIL">
+        <option value="INICIATIVA ESCOLA DE EDUCACAO INFANTIL">
+        <option value="PINTANDO 7 NUCLEO DE EDUCACAO INFANTIL">
+        <option value="DOMUS COLEGIO">
+        <option value="ESCOLA MUNICIPAL PROFA MADALENA CALTABIANO SALUM BENJAMIM">
+        <option value="ESCOLA MUNICIPAL PROFESSOR JOAQUIM PEREIRA DA SILVA">
+        <option value="CMEI PROFESSORA OLIMPIA FRANCO CESAR">
+        <option value="B J EDUCACAO INFANTIL E FUNDAMENTAL">
+        <option value="MUNDO DE SONHOS ESCOLA DE EDUCACAO E RECREACAO INFANTIL">
+        <option value="ESCOLA MUNICIPAL PROFA MARIA APARECIDA CAMARGO DE SOUZA">
+        <option value="PINDAMONHANGABA COLEGIO TECNICO DA FACULDADE DE">
+        <option value="CEL JTO A EE ALFREDO PUJOL DOUTOR">
+        <option value="ESCOLA MUNICIPAL JOSE GONCALVES DA SILVA SEU JUQUINHA">
+        <option value="ESCOLA MUNICIPAL PROFESSOR MARIO DE ASSIS CESAR">
+        <option value="ESCOLA MUNICIPAL PROFA REGINA CELIA MADUREIRA DE SOUZA LIMA">
+        <option value="CENTRO MUN DE ED INFANTIL YOLANDA IMMEDIATO FRYLING">
+        <option value="EDUCANDARIO VICENTE DE PAULO CASA PIA CONEGO TOBIAS">
+        <option value="PETTER PAN EDUCACAO INFANTIL">
+        <option value="CEL JTO A EE ANTONIA CARLOTA GOMES PROFESSORA">
+        <option value="EM PROFA MARIA MADUREIRA SALGADO DONA MINICA">
+        <option value="ESCOLA MUNICIPAL PROFA ODETE CORREA MADUREIRA">
+        <option value="PEIXINHO ENCANTADO ESCOLA DE EDUCACAO INFANTIL">
+        <option value="ART KIDS ESCOLA DE EDUCACAO INFANTIL">
+        <option value="ESCOLA DE EDUCACAO INFANTIL EDUCAR">
+        <option value="CENTRO MUNICIPAL DE EDUCACAO INFANTIL ESMERALDA SILVA RAMOS">
+        <option value="CMEI ISABEL PEREIRA DA SILVA - DONA ISABEL">
+        <option value="CMEI MARIA LUIZA LIMA DE ALMEIDA">
+        <option value="CMEI JOAO FLEURY DE SOUZA AMORIM FILHO">
+        <option value="CENTRO MUN DE ED INFANTIL JOSEFINA CEMBRANELLI SCHMIDT">
+        <option value="CMEI DOUTOR FRANCISCO LESSA JUNIOR">
+        <option value="CENTRO MUN DE ED INF DONA MARIA BENEDITA CABRAL SAN MARTIN">
+        <option value="SICILIANO COLEGIO">
+        <option value="INTERATIVO COLEGIO">
+        <option value="DIRCE APARECIDA PEREIRA MARCONDES">
+        <option value="RUBENS ZAMITH PROFESSOR">
+        <option value="E.E. PROFESSOR JOSE WADIE MILAD">
+        <option value="ANTONIA CARLOTA GOMES PROFESSORA">
+        <option value="CELIA KEIKO IKEDA PROFESSORA">
+        <option value="ELOYNA SALGADO RIBEIRO PROFESSORA">
+        <option value="ESCOLASTICA ANTUNES SALGADO PROFESSORA">
+        <option value="ISIS CASTRO DE MELLO CESAR PROFA">
+        <option value="ANTONIO APPARECIDO FALCAO PROFESSOR">
+        <option value="JOSE AYLTON FALCAO PROFESSOR">
+        <option value="DIRCE LEOPOLDINA CINTRA VILLAS BOAS PROFESSORA">
+        <option value="DEMETRIO IVAHY BADARO DOUTOR">
+    </datalist>
+
+    <!-- Alerta de Erro -->
+    <div id="alerta">
+        <div class="card">
+            <div class="card-header">
+                <h3>Formulário Incompleto!</h3>
+                <button id="fecharAlerta" class="material-symbols-outlined"
+                    style="border: none; background-color: white;">close</button>
+            </div>
+            <div class="card-body">
+                <p id="msgAlerta">MSG</p>
+            </div>
+            <div class="card-footer">
+                <button>Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="asset/js/config.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html>

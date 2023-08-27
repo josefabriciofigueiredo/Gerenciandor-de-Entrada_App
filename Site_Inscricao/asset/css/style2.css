@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'RightChalk';
+    src: url('../fonts/RightChalk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#circle img {
+    width: 8em;
+    height: 8em;
+
+    margin-top: -10em;
+}
+
+#circle {
+    width: 100%;
+    min-width: 320px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle h1 {
+    font-family: 'RightChalk';
+    font-size: 1.5em;
+}

@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RightChalk';
+    src: url('../fonts/RightChalk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --color-border: white;
+    --color-border-focused: #80bdff;
+    --color-border-focused-shadow: rgba(0, 123, 255, 0.25);
+    --color-border-input: rgb(190, 190, 190);
+    --color-background: rgba(255, 255, 255, 0.5);
+    --bg-imgURL: url("../img/background-2.jpg");
+}
+
+body,
+html {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: var(--bg-imgURL);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: var(--color-background);
+    border-radius: 10px;
+    border-bottom: 1px var(--color-border) solid;
+    border-right: 1px var(--color-border) solid;
+
+    width: 85%;
+    max-width: 600px;
+    padding: 15px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    backdrop-filter: blur(5px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: white;
+
+    width: 100%;
+    max-width: 400px; 
+    margin-bottom: 1.2em;
+
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+
+h2 {
+    font-family: 'RightChalk';
+}
+
+.bg-input span {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.bg-input label {
+    margin-right: -35px;
+    z-index: 2;
+    width: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.bg-input input {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px white solid;
+    border-left: 1px var(--color-border-input) solid;
+
+    height: 30px;
+    width: 100%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.bg-input input:focus {
+    border-color: var(--color-border-focused);
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem var(--color-border-focused-shadow);
+}
+
+/* ----- Button Inscrever ----- */
+#inscrever {
+    color: white;
+    background-color: rgb(111, 0, 255);
+
+    height: 35px;
+    width: 30%;
+    min-width: 120px;
+
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+#inscrevendo {
+    color: rgb(111, 0, 255);
+
+    height: 35px;
+    width: 30%;
+    min-width: 120px;
+    margin: 0px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-align: center;
+
+    display: none;
+}
+
+#inscrevendo::after {
+    content: "";
+    animation-name: loading-dots;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading-dots {
+    0% {
+        content: ".";
+    }
+
+    33% {
+        content: "..";
+    }
+
+    67% {
+        content: "...";
+    }
+
+    100% {
+        content: ".";
+    }
+}
