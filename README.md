@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/josefabriciofigueiredo/Gerenciando-de-Entrada_App/blob/main/LICENSE)
 
 ## Sobre
-<h4>- App</h4>
+### App
 <div>
 <img src="Visualizacao_Projeto/Tela(1)_Login.jpeg" width="19.7%">
 <img src="Visualizacao_Projeto/Tela(2)_Menu.jpeg" width="19.7%">
@@ -10,7 +10,7 @@
 <img src="Visualizacao_Projeto/Tela(4)_Lista das Inscricoes.jpeg" width="19.7%">
 </div>
 
-<h4>- Site</h4>
+### Site
 <div>
 <img src="Visualizacao_Projeto/site(1).png" width="49%">
 <img src="Visualizacao_Projeto/site(2).png" width="49%">
