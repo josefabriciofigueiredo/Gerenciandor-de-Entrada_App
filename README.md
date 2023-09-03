@@ -31,14 +31,14 @@
 - Banco de Dados: Firebase
 
 ## Como executar o projeto
-### APP
+### App
 - Crie um projeto no Firebase para Android.
 - Faça o download do arquivo "google-services.json" e coloque-o no seguinte diretório: ADM_Gerenciamento/app/.
 - Clone o projeto para o seu ambiente local.
 - Abra o projeto no Android Studio.
 - Siga as instruções específicas para gerar o APK do aplicativo.
 
-### SITE
+### Site
 - Crie um projeto no Firebase para a web.
 - Copie as configurações necessárias para a variável firebaseConfig, que está localizada no arquivo Site_Inscricao/asset/js/config.js.
 - Clone o projeto para o seu ambiente local.
